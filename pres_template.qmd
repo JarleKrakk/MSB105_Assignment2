@@ -1,6 +1,6 @@
 ---
-title: My Presentation
-author: Group X; author 1, author 2 and author 3
+title: Ellmer, Posit Assistant, Positron Assistant & Databot
+author: Group 3; Jarle, Bruvik og Mats
 institute: HVL
 papersize: a4
 #lang: en-GB
@@ -41,28 +41,34 @@ eval: true
 # Feel free to add more stash
 ---
 
-## First slide
+## Four names, one confusion
 
-Incremental point list
+**Ellmer**\
+*An R package for working with large language models*
 
-::: incremental
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
-:::
+**Positron Assistant**\
+*An earlier AI coding assistant in Positron*
+
+**Databot**\
+*An earlier AI agent for exploratory data analysis*
+
+**Posit Assistant**\
+*The current unified AI assistant for data science*
+
+In very simple terms: Ellmer is a building block, Posit Assistant is the
+current assistant, and Positron Assistant and Databot are previous
+generations.
 
 ## Second slide
 
 Some text first. Then whole list
 
 ::: fragment
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
+-   1
+    1.  en
+    2.  to
+    3.  tre
+-   2
 :::
 
 ## Two columns slide; first incremental
@@ -72,20 +78,20 @@ Some text first. Then whole list
 Some text
 
 ::: incremental
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
+-   one
+    1.  en
+    2.  to
+    3.  tre
+-   neste
 :::
 ::::
 
 ::: {.column .fragment width="50%"}
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
+-   1
+    1.  en
+    2.  to
+    3.  tre
+-   2
 :::
 ::::::
 
@@ -97,19 +103,19 @@ Some text
 First some text
 :::
 
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
+-   one
+    1.  en
+    2.  to
+    3.  tre
+-   neste
 ::::
 
 :::: {.column .incremental width="50%"}
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
+-   1
+    1.  en
+    2.  to
+    3.  tre
+-   2
 
 ::: fragment
 Som text after point list.
