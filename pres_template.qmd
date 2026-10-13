@@ -156,3 +156,16 @@ Som text after point list.
 ## Conclusions
 
 ## References
+
+- Posit. (n.d.). *Getting started with Posit Assistant.*
+  https://assistant.posit.co/docs/getting-started/
+
+- Cheng, J. (2026, June 11). *A brief and biased history of Posit data
+  science agents.* Posit Open Source.
+  https://opensource.posit.co/blog/2026-06-11_history-of-posit-data-science-agents/
+
+- Posit. (2026, May 5). *Posit AI is now available to all.*
+  https://posit.co/blog/posit-ai-now-available-all/
+
+- Posit. (n.d.). *Ellmer: A package for interacting with large language
+  models in R.* https://ellmer.tidyverse.org/
