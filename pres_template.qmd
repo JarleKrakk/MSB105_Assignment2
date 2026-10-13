@@ -59,16 +59,27 @@ In very simple terms: Ellmer is a building block, Posit Assistant is the
 current assistant, and Positron Assistant and Databot are previous
 generations.
 
-## Second slide
+## Ellmer
+
+::: fragment
+- An R package, not an AI assistant built into an IDE
+- Connects R to large language models — OpenAI, Claude, Gemini and
+  others
+- Supports streaming, tool calling and structured data extraction
+- Brings AI into the R workflow: send a prompt from R, get the response
+  back in R
+:::
+
+## slide
 
 Some text first. Then whole list
 
 ::: fragment
--   1
-    1.  en
-    2.  to
-    3.  tre
--   2
+- 1
+  1.  en
+  2.  to
+  3.  tre
+- 2
 :::
 
 ## Two columns slide; first incremental
@@ -78,20 +89,20 @@ Some text first. Then whole list
 Some text
 
 ::: incremental
--   one
-    1.  en
-    2.  to
-    3.  tre
--   neste
+- one
+  1.  en
+  2.  to
+  3.  tre
+- neste
 :::
 ::::
 
 ::: {.column .fragment width="50%"}
--   1
-    1.  en
-    2.  to
-    3.  tre
--   2
+- 1
+  1.  en
+  2.  to
+  3.  tre
+- 2
 :::
 ::::::
 
@@ -103,19 +114,19 @@ Some text
 First some text
 :::
 
--   one
-    1.  en
-    2.  to
-    3.  tre
--   neste
+- one
+  1.  en
+  2.  to
+  3.  tre
+- neste
 ::::
 
 :::: {.column .incremental width="50%"}
--   1
-    1.  en
-    2.  to
-    3.  tre
--   2
+- 1
+  1.  en
+  2.  to
+  3.  tre
+- 2
 
 ::: fragment
 Som text after point list.
