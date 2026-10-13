@@ -57,7 +57,7 @@ eval: true
 
 In very simple terms: Ellmer is a building block, Posit Assistant is the
 current assistant, and Positron Assistant and Databot are previous
-generations.
+generations. Hei Jarle
 
 ## Ellmer
 
