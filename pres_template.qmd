@@ -57,18 +57,37 @@ eval: true
 
 In very simple terms: Ellmer is a building block, Posit Assistant is the
 current assistant, and Positron Assistant and Databot are previous
-generations. Hei Jarle, hvordan går det?
+generations.
 
-## Ellmer
+## How do they differ?
 
-::: fragment
-- An R package, not an AI assistant built into an IDE
-- Connects R to large language models — OpenAI, Claude, Gemini and
-  others
-- Supports streaming, tool calling and structured data extraction
-- Brings AI into the R workflow: send a prompt from R, get the response
-  back in R
-:::
+| Tool                   | Main purpose                          |
+|------------------------|---------------------------------------|
+| **Ellmer**             | Connect R to language models          |
+| **Positron Assistant** | Earlier AI coding assistant           |
+| **Databot**            | Earlier tool for data exploration     |
+| **Posit Assistant**    | Current AI assistant for data science |
+
+**Key difference:**
+
+- Ellmer is an R package.
+- Posit Assistant works inside RStudio and Positron.
+- Posit Assistant replaced Positron Assistant and Databot.
+
+<small>Sources: \[1\] \[2\] \[4\]</small>
+
+## What does it cost?
+
+| Tool                 | Cost                                          |
+|----------------------|-----------------------------------------------|
+| **Ellmer**           | Free package; model usage may cost money      |
+| **Posit Assistant**  | Software is free; model access may cost money |
+| **Posit AI Pass**    | From \$20/month                               |
+| **Older assistants** | Replaced by Posit Assistant                   |
+
+**Remember:** Free software does not always mean free AI usage.
+
+<small>Sources: \[1\] \[3\] \[4\]</small>
 
 ## slide
 

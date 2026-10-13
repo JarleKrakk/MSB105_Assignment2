@@ -6,8 +6,8 @@
 <script src="pres_template_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="pres_template_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="pres_template_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="pres_template_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.10.18">
+<link href="pres_template_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.38">
 
   <meta name="author" content="Group 3; Jarle, Bruvik og Mats">
   <title>Ellmer, Posit Assistant, Positron Assistant &amp; Databot</title>
@@ -20,13 +20,10 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
+    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: 1.5em;}
-    div.column{flex: auto;}
-    @media screen {
-    div.columns{gap: min(4vw, 1.5em);}
-    div.column{overflow-x: auto;}
-    }
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -138,7 +135,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Group 3; Jarle, Bruvik og Mats
+Group 3; Jarle, Bruvik og Mats 
 </div>
         <p class="quarto-title-affiliation">
             HVL
@@ -157,18 +154,74 @@ Group 3; Jarle, Bruvik og Mats
 <em>An earlier AI agent for exploratory data analysis</em></p>
 <p><strong>Posit Assistant</strong><br>
 <em>The current unified AI assistant for data science</em></p>
-<p>In very simple terms: Ellmer is a building block, Posit Assistant is the current assistant, and Positron Assistant and Databot are previous generations. Hei Jarle, hvordan går det?</p>
+<p>In very simple terms: Ellmer is a building block, Posit Assistant is the current assistant, and Positron Assistant and Databot are previous generations.</p>
 </section>
-<section id="ellmer" class="slide level2">
-<h2>Ellmer</h2>
-<div class="fragment">
+<section id="how-do-they-differ" class="slide level2">
+<h2>How do they differ?</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Main purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ellmer</strong></td>
+<td>Connect R to language models</td>
+</tr>
+<tr class="even">
+<td><strong>Positron Assistant</strong></td>
+<td>Earlier AI coding assistant</td>
+</tr>
+<tr class="odd">
+<td><strong>Databot</strong></td>
+<td>Earlier tool for data exploration</td>
+</tr>
+<tr class="even">
+<td><strong>Posit Assistant</strong></td>
+<td>Current AI assistant for data science</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key difference:</strong></p>
 <ul>
-<li>An R package, not an AI assistant built into an IDE</li>
-<li>Connects R to large language models — OpenAI, Claude, Gemini and others</li>
-<li>Supports streaming, tool calling and structured data extraction</li>
-<li>Brings AI into the R workflow: send a prompt from R, get the response back in R</li>
+<li>Ellmer is an R package.</li>
+<li>Posit Assistant works inside RStudio and Positron.</li>
+<li>Posit Assistant replaced Positron Assistant and Databot.</li>
 </ul>
-</div>
+<p><small>Sources: [1] [2] [4]</small></p>
+</section>
+<section id="what-does-it-cost" class="slide level2">
+<h2>What does it cost?</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ellmer</strong></td>
+<td>Free package; model usage may cost money</td>
+</tr>
+<tr class="even">
+<td><strong>Posit Assistant</strong></td>
+<td>Software is free; model access may cost money</td>
+</tr>
+<tr class="odd">
+<td><strong>Posit AI Pass</strong></td>
+<td>From $20/month</td>
+</tr>
+<tr class="even">
+<td><strong>Older assistants</strong></td>
+<td>Replaced by Posit Assistant</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Remember:</strong> Free software does not always mean free AI usage.</p>
+<p><small>Sources: [1] [3] [4]</small></p>
 </section>
 <section id="slide" class="slide level2">
 <h2>slide</h2>
