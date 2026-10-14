@@ -97,11 +97,12 @@ generations.
 - We get answers and code
 - We often copy code into RStudio
 
-**Posit Assistant**
+**The four Posit tools**
 
-- Works inside RStudio
-- Can use information from our project
-- Helps us while coding
+- Ellmer: Connects R code to AI models
+- Posit Assistant: Helps us directly in RStudio and Positron
+- Positron Assistant: Earlier coding assistant in Positron
+- Databot: Earlier AI tool for exploring data
 
 ## A Simple Example
 
