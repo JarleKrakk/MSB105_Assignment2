@@ -89,17 +89,39 @@ generations.
 
 <small>Sources: \[1\] \[3\] \[4\]</small>
 
+## How do they differ from Chat Apps?
+
+**ChatGPT / Claude**
+
+- We ask questions
+- We get answers and code
+- We often copy code into RStudio
+
+**The four Posit tools**
+
+- Ellmer: Connects R code to AI models
+- Posit Assistant: Helps us directly in RStudio and Positron
+- Positron Assistant: Earlier coding assistant in Positron
+- Databot: Earlier AI tool for exploring data
+
+## A Simple Example
+
+**Imagine we get an error in RStudio.**
+
+**ChatGPT / Claude** - We copy the error into the chat - AI suggests how
+to fix it
+
+**Posit Assistant** - We ask for help inside RStudio - AI can use
+information from our project
+
+**Main difference:** Less copying and pasting!
+
+------------------------------------------------------------------------
+
 ## slide
 
-Some text first. Then whole list
-
-::: fragment
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
-:::
+Some text first. Then whole list\::: fragment - 1 1. en 2. to 3. tre - 2
+\:::
 
 ## Two columns slide; first incremental
 
