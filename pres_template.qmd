@@ -43,7 +43,7 @@ eval: true
 
 ## Four names, one confusion
 
-heisann **Ellmer**\
+**Ellmer**\
 *An R package for working with large language models*
 
 **Positron Assistant**\
