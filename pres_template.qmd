@@ -118,76 +118,93 @@ information from our project
 
 ------------------------------------------------------------------------
 
-## slide
+## Posit AI Newsletter
 
-Some text first. Then whole list\::: fragment - 1 1. en 2. to 3. tre - 2
-\:::
+```{=html}
+<style>
+.newsletter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.1em;
+}
 
-## Two columns slide; first incremental
+.center-box {
+  grid-column: 2;
+  grid-row: 2;
+  background: #4472C4;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  text-align: center;
+}
 
-:::::: columns
-:::: {.column .fragment width="50%"}
-Some text
+.node {
+  background: #f4f4f4;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+  text-align: center;
+  font-weight: 600;
+}
 
-::: incremental
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
+.top    { grid-column: 2; grid-row: 1; }
+.left   { grid-column: 1; grid-row: 3; }
+.right  { grid-column: 3; grid-row: 2; }
+.bottom { grid-column: 2; grid-row: 3; }
+.topleft { grid-column: 1; grid-row: 1; }
+
+.arrow {
+  font-size: 2em;
+  color: #4472C4;
+}
+</style>
+```
+
+::::::::: newsletter-grid
+::: {.node .top}
+🚀 New AI Models <br> ↓
 :::
-::::
 
-::: {.column .fragment width="50%"}
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
-:::
-::::::
-
-## Two columns slide; both incremental
-
-::::::: columns
-:::: {.column .incremental width="50%"}
-::: fragment
-First some text
+::: {.node .left}
+🤖 Ellmer ↗
 :::
 
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
-::::
-
-:::: {.column .incremental width="50%"}
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
-
-::: fragment
-Som text after point list.
+::: center-box
+📩 Posit AI<br> Newsletter
 :::
-::::
-:::::::
 
-## Conclusions
+::: {.node .right}
+← 💻 Positron Assistant
+:::
+
+::: {.node .bottom}
+↑<br> 🧠 AI Best Practices
+:::
+
+::: {.node .topleft}
+📊 Databot ↘
+:::
+:::::::::
 
 ## References
 
-- Posit. (n.d.). *Getting started with Posit Assistant.*
+- Posit. (n.d.). *Getting started with Posit Assistant.*\
   https://assistant.posit.co/docs/getting-started/
 
 - Cheng, J. (2026, June 11). *A brief and biased history of Posit data
-  science agents.* Posit Open Source.
+  science agents.* Posit Open Source.\
   https://opensource.posit.co/blog/2026-06-11_history-of-posit-data-science-agents/
 
-- Posit. (2026, May 5). *Posit AI is now available to all.*
+- Posit. (2026, May 5). *Posit AI is now available to all.*\
   https://posit.co/blog/posit-ai-now-available-all/
 
 - Posit. (n.d.). *Ellmer: A package for interacting with large language
   models in R.* https://ellmer.tidyverse.org/
+
+- Posit Open Source. (n.d.). *AI newsletter*.\
+  https://opensource.posit.co/tags/ai-newsletter/

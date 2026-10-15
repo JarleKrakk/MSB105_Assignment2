@@ -249,77 +249,83 @@ Group 3; Jarle, Bruvik og Mats
 <p><strong>Posit Assistant</strong> - We ask for help inside RStudio - AI can use information from our project</p>
 <p><strong>Main difference:</strong> Less copying and pasting!</p>
 </section>
-<section id="slide" class="slide level2">
-<h2>slide</h2>
-<p>Some text first. Then whole list::: fragment - 1 1. en 2. to 3. tre - 2 :::</p>
-</section>
-<section id="two-columns-slide-first-incremental" class="slide level2">
-<h2>Two columns slide; first incremental</h2>
-<div class="columns">
-<div class="column fragment" style="width:50%;">
-<p>Some text</p>
-<ul>
-<li class="fragment">one
-<ol type="1">
-<li class="fragment">en</li>
-<li class="fragment">to</li>
-<li class="fragment">tre</li>
-</ol></li>
-<li class="fragment">neste</li>
-</ul>
-</div><div class="column fragment" style="width:50%;">
-<ul>
-<li>1
-<ol type="1">
-<li>en</li>
-<li>to</li>
-<li>tre</li>
-</ol></li>
-<li>2</li>
-</ul>
-</div></div>
-</section>
-<section id="two-columns-slide-both-incremental" class="slide level2">
-<h2>Two columns slide; both incremental</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment">
-<p>First some text</p>
+<section id="posit-ai-newsletter" class="slide level2">
+<h2>Posit AI Newsletter</h2>
+<style>
+.newsletter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.1em;
+}
+
+.center-box {
+  grid-column: 2;
+  grid-row: 2;
+  background: #4472C4;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.node {
+  background: #f4f4f4;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+  text-align: center;
+  font-weight: 600;
+}
+
+.top    { grid-column: 2; grid-row: 1; }
+.left   { grid-column: 1; grid-row: 3; }
+.right  { grid-column: 3; grid-row: 2; }
+.bottom { grid-column: 2; grid-row: 3; }
+.topleft { grid-column: 1; grid-row: 1; }
+
+.arrow {
+  font-size: 2em;
+  color: #4472C4;
+}
+</style>
+<div class="newsletter-grid">
+<div class="node top">
+<p>🚀 New AI Models <br> ↓</p>
 </div>
-<ul>
-<li class="fragment">one
-<ol type="1">
-<li class="fragment">en</li>
-<li class="fragment">to</li>
-<li class="fragment">tre</li>
-</ol></li>
-<li class="fragment">neste</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<ul>
-<li class="fragment">1
-<ol type="1">
-<li class="fragment">en</li>
-<li class="fragment">to</li>
-<li class="fragment">tre</li>
-</ol></li>
-<li class="fragment">2</li>
-</ul>
-<div class="fragment">
-<p>Som text after point list.</p>
+<div class="node left">
+<p>🤖 Ellmer ↗</p>
 </div>
-</div></div>
-</section>
-<section id="conclusions" class="slide level2">
-<h2>Conclusions</h2>
+<div class="center-box">
+<p>📩 Posit AI<br> Newsletter</p>
+</div>
+<div class="node right">
+<p>← 💻 Positron Assistant</p>
+</div>
+<div class="node bottom">
+<p>↑<br> 🧠 AI Best Practices</p>
+</div>
+<div class="node topleft">
+<p>📊 Databot ↘</p>
+</div>
+</div>
 </section>
 <section id="references" class="slide level2">
 <h2>References</h2>
 <ul>
-<li><p>Posit. (n.d.). <em>Getting started with Posit Assistant.</em> https://assistant.posit.co/docs/getting-started/</p></li>
-<li><p>Cheng, J. (2026, June 11). <em>A brief and biased history of Posit data science agents.</em> Posit Open Source. https://opensource.posit.co/blog/2026-06-11_history-of-posit-data-science-agents/</p></li>
-<li><p>Posit. (2026, May 5). <em>Posit AI is now available to all.</em> https://posit.co/blog/posit-ai-now-available-all/</p></li>
+<li><p>Posit. (n.d.). <em>Getting started with Posit Assistant.</em><br>
+https://assistant.posit.co/docs/getting-started/</p></li>
+<li><p>Cheng, J. (2026, June 11). <em>A brief and biased history of Posit data science agents.</em> Posit Open Source.<br>
+https://opensource.posit.co/blog/2026-06-11_history-of-posit-data-science-agents/</p></li>
+<li><p>Posit. (2026, May 5). <em>Posit AI is now available to all.</em><br>
+https://posit.co/blog/posit-ai-now-available-all/</p></li>
 <li><p>Posit. (n.d.). <em>Ellmer: A package for interacting with large language models in R.</em> https://ellmer.tidyverse.org/</p></li>
+<li><p>Posit Open Source. (n.d.). <em>AI newsletter</em>.<br>
+https://opensource.posit.co/tags/ai-newsletter/</p></li>
 </ul>
 
 </section>
